@@ -121,6 +121,7 @@ body {
   height: 100px;
   width: 100px;
   margin-top: 10px;
+  margin-left: -55px;
 }
 
 #showcase-a.d-block.d-sm-none button {
