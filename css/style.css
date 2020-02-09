@@ -1,0 +1,128 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+#header .navbar {
+  background-color: #ffffff;
+}
+#header.d-none.d-sm-block .navbar a.navbar-brand img {
+  height: 60px;
+  width: 60px;
+  margin-left: 90px;
+}
+
+#header.d-block.d-sm-none .navbar a.navbar-brand img {
+  height: 50px;
+  width: 50px;
+  margin-left: 10px;
+}
+
+#showcase {
+  height: 80vh;
+}
+/* start mobile display css for showcase */
+#showcase.d-block.d-sm-none h1 {
+  margin-top: 50px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+#showcase.d-block.d-sm-none p {
+  text-transform: capitalize;
+  margin-top: 50px;
+  line-height: 30px;
+  text-align: center;
+}
+
+#showcase.d-block.d-sm-none button {
+  border: none;
+  border-radius: 10px;
+  width: 130px;
+  height: 40px;
+  background-color: #634095;
+}
+
+/* end mobile display css for showcase */
+#showcase .container .row .col h1 {
+  margin-top: 80px;
+  text-transform: capitalize;
+}
+
+#showcase .container .row .col p {
+  text-transform: capitalize;
+  margin-top: 50px;
+  line-height: 30px;
+}
+
+#showcase .container .row .col button {
+  border: none;
+  border-radius: 10px;
+  width: 130px;
+  height: 40px;
+  background-color: #634095;
+  margin-left: 110px;
+}
+#showcase .container .row .col button:hover {
+  background-color: #f37381;
+}
+
+#showcase .container .row .col button a {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#showcase .container .row .col img {
+  height: 400px;
+  width: 450px;
+}
+
+#showcase-a {
+  height: 100vh;
+}
+
+#showcase-a .container .row .col img {
+  height: 450px;
+  width: 450px;
+  margin-top: 60px;
+}
+
+#showcase-a .container .row .col h2 {
+  margin-top: 60px;
+  text-transform: capitalize;
+}
+
+#showcase-a .container .row .col p {
+  margin-top: 40px;
+}
+
+#showcase-a .container .row .col button {
+  margin-top: 35px;
+  border: none;
+  border-radius: 10px;
+  width: 130px;
+  height: 40px;
+  background-color: #634095;
+}
+
+#showcase-a .container .row .col button a {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#showcase-a .container .row .col button:hover {
+  background-color: #f37381;
+}
+/* mobile dispaly for showcase-a css */
+#showcase-a.d-block.d-sm-none img {
+  height: 100px;
+  width: 100px;
+  margin-top: 10px;
+}
+
+#showcase-a.d-block.d-sm-none button {
+  margin-bottom: 20px;
+}
